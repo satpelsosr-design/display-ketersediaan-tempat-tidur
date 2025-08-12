@@ -17,7 +17,6 @@
             <tr>
                 <th>Nama Kamar</th>
                 <th>Kapasitas</th>
-                <th>Lantai</th>
                 <th>Terisi</th>
                 <th>Kosong</th>
                 <th>Status</th>
@@ -27,7 +26,7 @@
     </table>
 
     <script>
-        const sheetURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTNqLH1YhRrXesGdUlg9SnAXyTMXOr4vvrgM6n_8PQ551LNvBIYdMZdVwNuQ2Wi82lEDE8mspx4GW9k/pub?gid=1478327532&single=true&output=csv"
+        const sheetURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTNqLH1YhRrXesGdUlg9SnAXyTMXOr4vvrgM6n_8PQ551LNvBIYdMZdVwNuQ2Wi82lEDE8mspx4GW9k/pubhtml?gid=1478327532&single=true"
             .replace("/edit?usp=sharing", "/gviz/tq?tqx=out:json");
 
         fetch(sheetURL)
@@ -50,4 +49,5 @@
     </script>
 </body>
 </html>
+
 
